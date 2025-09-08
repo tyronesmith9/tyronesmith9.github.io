@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CHANGE ME</title>
+    <title>rone</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <!-- All content goes here -->
     <div id="all-contents">
-      
-    </div>
-  </body>
-</html>
+    <nav>
+      <h1>Rone</h1>
+      <ul id="nav-ul">
+        <li class="nav-li">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-li">
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class ="sidebar">
+        <img class="sidebar-img" src="data:image/png;base64,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">
+      </div>
+
+      <div class="content">
+        <h2>tyrone smith</h2>
+        <p>i like to spend money on like cloth and shoes and stuff like that</p>
+     <div id="interests">
+       <h3>interests</h3>
+      <ul>
+        <li>playing the game</li>
+        <li>sleeping</li>
+        <li>lisening to music</li>
+       </ul>
+     </div>
+     </main>
+   </div>
+   </body>
+   </html>
+   
